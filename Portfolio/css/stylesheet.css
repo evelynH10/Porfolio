@@ -1,0 +1,284 @@
+/* Portfolio */
+.header{
+	padding:15px;
+  background-color:#E2D2E7
+}
+.nav{
+	float:right;
+}
+ul{
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 10px;
+    font-family: helvetica;
+    text-align: center;
+	font-weight:bold;
+}
+a{
+	background-color:none;
+}
+.nava:link{
+	color:black;
+}
+.nava:visited{
+	color:white;
+}
+.nava:hover{
+	size:30px;
+	background-color:black;
+}
+/*My Logo */
+.logo{
+	width:118px;
+	height:90px;
+
+}
+.logoP{
+	width:200px;
+}
+
+.pandaM img:last-child{display:none}
+.pandaM:hover img:first-child{display:none}
+.pandaM:hover img:last-child{display:inline-block}
+/*Title */
+.jobTitle{
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	color: #724C94;
+}
+.myName{
+	text-align:center;
+	color: #724C94;
+}
+.webSite1{
+	width:250px;
+}
+.item1{
+	width:255px;
+	height:255px;
+	display: block;
+}
+.info {
+  position: relative;
+  width: 200px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 255px;
+  width: 255px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+.info:hover .overlay {
+  opacity: .70;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.hrDesign{
+  float:left;
+  width:44%;
+  background:  #724C94;
+  height:2px;
+  padding-right:5px;
+}
+.hrDesign2{
+  float:right;
+  width:44%;
+  background:  #724C94;
+  height:2px;
+  
+}
+
+
+.catagorie{
+	font-weight:bolder;
+	font-size:45px;
+	text-align:center;
+  align-content:center;
+  color: #724C94;
+	
+}
+.aboutMe{
+	font-size:15px;
+}
+.logos{
+display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+/* Contact Page */
+.form{
+	padding:10px;
+	margin: 8px;
+}
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* footer */
+.gitLogo{
+	width:50px;
+	height:50px;
+	padding:5px;
+}
+.linkLogo{
+	width:50px;
+	height:50px;
+	padding:5px;
+}
+.other{
+	margin-left: auto;
+  margin-right:auto;
+    width: 50%;
+}
+.copyright{
+	text-align:center;
+}
+/* packaging */
+.description{
+  font-size: 20px;
+  margin-left:30px;
+  padding-bottom:20px;
+}
+.cimage{
+  height:650px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+ 
+}
+.cimage2{
+  width:800px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.thum{
+  width:80px;
+  padding:5px;
+}
+/* City Poster */
+.poster1{
+  height:650px;
+  padding:8px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+/* Book scoops */
+.scoopscover{
+  height:800px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.spread{
+  height:600px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+  
+}
+.spread1{
+  height:600px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+/* infographic */
+.infograph{
+  width:600px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.mock{
+   width:600px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.mock1{
+   width:400px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+/* Retote */
+.posterRe{
+   width:500px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.retoteItem{
+   width:500px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.brochureRe{
+   width:600px;
+   padding:5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/* Banner */
+.banner{
+  width:800px;
+   padding-bottom:20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/* email */
+.mockE{
+  height:400px;
+   padding-bottom:20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
